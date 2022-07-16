@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(#ffe4c4, #bfe2ec);
+	background-attachment: fixed;
+}
+a.btn:link {
+	color: #000000;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+}
+a.ft-link:link {
+	text-decoration: none;
+}
+a.btn:visited {
+	color: #000000;
+	font-size: 24px;
+}
+a.ft-link:visited {
+	color: #000000;
+}
+a.btn:hover {
+	color: rgb(236, 224, 51);
+	font-size: 29px;
+	font-weight: 800;
+	background-color: #5aa9be;
+}
+a.ft-link:hover {
+	color: rgb(173, 0, 0);
+}
+a.btn:active {
+	color: red;
+}
+a.ft-link:active {
+	color: yellow;
+}
+nav {
+	margin-top: 20px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.btn {
+	background-color: #bfe2ec;
+	padding: 5px;
+	border-top: 8px inset #0000ff;
+	border-left: 8px inset #0000ff;
+	border-right: 8px solid #6bacc2;
+	border-bottom: 8px solid #6bacc2;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin: auto;
+	display: flex inline;
+	align-self: center;
+	flex-grow: 1;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+.logolorem {
+	width: 200px;
+}
+.header1 {
+	display: flex;
+	margin: 0 auto;
+	padding: 20px;
+	width: fit-content;
+	text-align: center;
+	font-size: 36px;
+	border-top: 20px inset #0000ff;
+	border-left: 20px inset #0000ff;
+	border-right: 20px solid #6bacc2;
+	border-bottom: 20px solid #6bacc2;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+.headtext {
+	padding: 10px;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+.headtext img {
+	width: 300px;
+	height: 300px;
+	border: solid 5px #c7bf9a;
+	border-radius: 50px;
+	margin: 20px;
+}
+.span_head {
+	font-weight: 800;
+	font-size: 24px;
+	display: flex;
+}
+#eco {
+	order: 2;
+}
+#big {
+	order: 2;
+}
+.br {
+	margin-top: 30px;
+	border-top: #000000 solid 3px;
+}
+.footer {
+	display: flex;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.foot {
+	width: 25%;
+}
