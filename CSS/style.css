@@ -8,37 +8,6 @@ body {
 	background: linear-gradient(#ffe4c4, #bfe2ec);
 	background-attachment: fixed;
 }
-a.btn:link {
-	color: #000000;
-	text-decoration: none;
-	font-size: 24px;
-	text-align: center;
-}
-a.ft-link:link {
-	text-decoration: none;
-}
-a.btn:visited {
-	color: #000000;
-	font-size: 24px;
-}
-a.ft-link:visited {
-	color: #000000;
-}
-a.btn:hover {
-	color: rgb(236, 224, 51);
-	font-size: 29px;
-	font-weight: 800;
-	background-color: #5aa9be;
-}
-a.ft-link:hover {
-	color: rgb(173, 0, 0);
-}
-a.btn:active {
-	color: red;
-}
-a.ft-link:active {
-	color: yellow;
-}
 nav {
 	margin-top: 20px;
 	height: 70px;
@@ -60,7 +29,25 @@ nav {
 	align-self: center;
 	flex-grow: 1;
 }
-
+a.btn:link {
+	color: #000000;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: center;
+}
+a.btn:visited {
+	color: #000000;
+	font-size: 24px;
+}
+a.btn:hover {
+	color: rgb(236, 224, 51);
+	font-size: 29px;
+	font-weight: 800;
+	background-color: #5aa9be;
+}
+a.btn:active {
+	color: red;
+}
 .logo {
 	display: flex;
 	justify-content: center;
@@ -121,4 +108,16 @@ nav {
 }
 .foot {
 	width: 25%;
+}
+a.ft-link:link {
+	text-decoration: none;
+}
+a.ft-link:visited {
+	color: #000000;
+}
+a.ft-link:hover {
+	color: rgb(173, 0, 0);
+}
+a.ft-link:active {
+	color: yellow;
 }
